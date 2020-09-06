@@ -4,7 +4,7 @@ import {Avatar} from "@material-ui/core";
 import {AttachFile, InsertEmoticon, MoreVert, SearchOutlined} from "@material-ui/icons";
 import MicIcon from "@material-ui/icons/Mic";
 import IconButton from "@material-ui/core/IconButton";
-import axios from './axios';
+import axios from '../../axios';
 
 function Chat({ messages }) {
     const [input, setInput] = useState('')
